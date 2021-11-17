@@ -27,14 +27,14 @@ const Galeria = ({imagem, title, text, src}) => {
     <>
     {listaDeProjetos.map((projeto) => 
     <card>
-      {/* <div class="card"> */}
+      <div class="card" id="projects">
        <img class="card-img-top" src={projeto.imagem}  alt="Imagem do projeto"/>
         <div class="card-body">
         <h5 class="card-title">{projeto.title}</h5>
         <p class="card-text">{projeto.text}</p>
         <a href={projeto.src} target="_blank" class="btn btn-primary">GitHub</a>
         </div>
-      {/* </div> */}
+      </div>
     </card>
     )
 }

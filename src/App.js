@@ -19,6 +19,7 @@ export default class App extends Component {
    <>
    <Header nome={this.nome}/>
    <Banner>
+   <img src="https://scontent.fgru5-1.fna.fbcdn.net/v/t1.6435-9/81424747_10212413702057595_284078749094248448_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeElnUnBEscsHWobyQFjDUPW6pjOIUZzAWvqmM4hRnMBaz5jhJUk_5niKwwvqSyRJh8&_nc_ohc=Q07e1zU9-bkAX_F5br0&_nc_ht=scontent.fgru5-1.fna&oh=be49b58548d932cc630b7ff46eec4d25&oe=61BA2228" class="img-thumbnail" alt="..."/>
    <h2>Quem é Giovani Silva?</h2>
     <p>
     Engenheiro civil que, durante a pandemia ficou desempregado e viu a oportunidade que lhe faltava para fazer sua transição de carreira para a área de tecnologia!
