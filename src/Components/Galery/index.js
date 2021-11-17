@@ -9,22 +9,22 @@ const listaDeProjetos = [
     src: 'https://github.com/giovanispaula/PodCastream'
   },
   {
-    imagem: 'https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/11/Como-Criar-um-Site.png',
-    title: '2 projeto',
-    text: 'projeto de nro 2',
-    src: 'https://github.com/giovanispaula/PodCastream'
+    imagem: 'https://a-static.mlcdn.com.br/618x463/bloco-de-notas-coloridos-pequeno-tb/yellowimport/1199p/7a505e8854855cf60dea29e67bb40afd.jpeg',
+    title: 'Notes',
+    text: 'Projeto de site para criação de notas pessoais, ao estilo Google Keep',
+    src: 'https://github.com/giovanispaula/CheckpointII-FrontII'
   },
   {
-    imagem: 'https://github.com/giovanispaula/PodCastream/blob/main/img/header-parallax.jpg?raw=true',
-    title: '3 projeto',
-    text: 'projeto de nro 3',
-    src: 'https://github.com/giovanispaula/PodCastream'
+    imagem: 'https://img.freepik.com/vetores-gratis/interior-da-galeria_1284-12766.jpg?size=626&ext=jpg',
+    title: 'Projeto Fast n Furious',
+    text: 'Site para adição de imagens, utilizando CSS, JS e HTML',
+    src: 'https://github.com/giovanispaula/Checkpoint'
   }]
 
 
 const Galeria = ({imagem, title, text, src}) => {
   return (
-    <>
+    <div className="galeria">
     {listaDeProjetos.map((projeto) => 
     <card>
       <div class="card" id="projects">
@@ -38,7 +38,7 @@ const Galeria = ({imagem, title, text, src}) => {
     </card>
     )
 }
-  </>
+  </div>
 )
 }
 
