@@ -1,0 +1,6 @@
+com\getnet\UserGetNet\model\Users.class
+com\getnet\UserGetNet\config\Config.class
+com\getnet\UserGetNet\error\CustomError.class
+com\getnet\UserGetNet\repositories\UserRepository.class
+com\getnet\UserGetNet\controller\UserController.class
+com\getnet\UserGetNet\UserGetNetApplication.class
